@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { updateLocation } from './locationSlice';
 
 export function Location() {
   const [location, setLocation] = useState('');
